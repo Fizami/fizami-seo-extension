@@ -1,0 +1,21 @@
+{
+    "name": "Fizami Free SEO Tools",
+    "description": "Fizami Free SEO Tools for Chrome.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "browser_action": {
+        "default_icon": "assets/img/icon128.png",
+        "default_title": "Fizami Free SEO Tools",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://cdnjs.cloudflare.com; object-src 'self'",
+    "permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+    "icons": { 
+        "16": "assets/img/icon16.png",
+        "48": "assets/img/icon48.png",
+       "128": "assets/img/icon128.png" 
+    }
+}

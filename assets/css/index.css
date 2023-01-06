@@ -1,0 +1,65 @@
+.card-fizami {
+    height: 600px;
+    width: 800px;
+    padding: 15px;
+}
+
+.card-header-fizami {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.card-header-fizami h4 {
+    margin-top: 10px;
+}
+
+
+/*blockquote*/
+blockquote.blockquote { 
+    color: #0e1726;
+    padding: 20px 20px 20px 14px;
+    font-size: 0.875rem;
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #e0e6ed;
+    border-left: 2px solid #1b55e2;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+blockquote.blockquote > p {
+    margin-bottom: 0;
+}
+
+blockquote .small:before, blockquote footer:before, blockquote small:before {
+    content: '\2014 \00A0';
+}
+
+blockquote .small, blockquote footer, blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777;
+}
+
+blockquote.media-object.m-o-border-right {
+    border-right: 4px solid #1b55e2;
+    border-left: none;
+}
+
+blockquote.media-object .media .usr-img img {
+    width: 55px;
+}
+
+
+#mobile-images {
+    background-color: #ccccdd;
+    padding: 60px 15px 80px;
+    display: inline-block;
+    border-radius: 30px;
+}
+  
+  
